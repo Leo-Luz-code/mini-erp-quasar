@@ -9,7 +9,7 @@
         icon="fa fa-bolt"
         round
         text-color="green-5"
-        to="#"
+        to=""
         unelevated
       />
     </h2>

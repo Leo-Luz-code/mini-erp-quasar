@@ -34,7 +34,7 @@ export default defineConfig((ctx) => {
     // Full list of options: https://v2.quasar.dev/quasar-cli-vite/quasar-config-file#build
     build: {
       env: ctx.dev
-        ? dotenv.config({ path: "env.dev" }).parsed
+        ? dotenv.config({ path: ".env.dev" }).parsed
         : dotenv.config().parsed,
       target: {
         browser: ["es2022", "firefox115", "chrome115", "safari14"],
