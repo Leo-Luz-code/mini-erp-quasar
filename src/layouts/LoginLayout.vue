@@ -1,15 +1,16 @@
 <template>
-  <q-layout view="lHh LpR lFf" container>
+  <q-layout view="lHh LpR lFf">
     <q-page-container class="container-fluid">
       <router-view> </router-view>
     </q-page-container>
   </q-layout>
 </template>
 
-<script setup lang="ts">
+<script>
 import { defineComponent } from "vue";
 
-defineComponent({
+export default defineComponent({
   name: "LoginLayout",
 });
 </script>
+
